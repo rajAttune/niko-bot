@@ -3,3 +3,5 @@ llama-index
 llama-index-core
 llama-index-embeddings-huggingface
 llama-index-llms-anthropic
+llama-index-vector-stores-milvus
+pymilvus
