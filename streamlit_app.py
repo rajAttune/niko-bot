@@ -5,10 +5,8 @@
 
 
 from llama_index.core import SimpleDirectoryReader, VectorStoreIndex
-from llama_index.embeddings.ollama import OllamaEmbedding
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from llama_index.llms.anthropic import Anthropic
-from llama_index.llms.ollama import Ollama
 from llama_index.core import Settings
 from llama_index.core.memory import ChatMemoryBuffer
 import streamlit as st
