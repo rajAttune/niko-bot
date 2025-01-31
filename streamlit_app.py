@@ -19,7 +19,7 @@ import streamlit as st
 
 
 # 1. Define all the LLMs to be used
-embed_llm = HuggingFaceEmbedding(model_name="BAAI/bge-large-en-v1.5",device="mps")
+embed_llm = HuggingFaceEmbedding(model_name="BAAI/bge-large-en-v1.5")
 
 query_llm = Anthropic(
                 model="claude-3-5-haiku-20241022",
