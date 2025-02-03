@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 from llama_index.core import SimpleDirectoryReader, VectorStoreIndex
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from llama_index.llms.anthropic import Anthropic
