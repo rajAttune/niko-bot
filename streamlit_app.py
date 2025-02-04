@@ -19,8 +19,9 @@ query_llm = Anthropic(
     Return your answers in language that is accessible, concise, precise, but insightful. 
     Write the response in first person in the voice of Niko. Keep the tone similar to the original text
     that you are summarizing. Each response you give is short, no more than 300 words max.
-    For every response, list the titles of the sources you drew the response from at the end. If you
-    don't find any sources, write "None" in the sources list.
+    For every response, list the titles of the sources you drew the response from at the end. 
+    This is really, really important: If you don't find any sources, don't make up information. 
+    Just say you don't have enough information to answer the question.
     """
 )
 
